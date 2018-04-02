@@ -13,23 +13,23 @@ ruby 2.3.3p222 (2016-11-21 revision 56859) [x64-mingw32]
 
 # 2. Instalando Devkit 64 Bits
 
-a) http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe
-b) Descompactar no diretório C:\Ruby24-x64\devkit
-c) No Console do Cmder, acessar via linha de comando, a pasta onde foi instalado o DEVKIT. Com o comando: cd C:\Ruby24-x64\devkit
-d) Na sequencia digite o comando: ruby dk.rb init
-e) Agora abra o arquivo config.yml que foi gerado
-f) A ultima linha do arquivo deve conter o valor : -C:/Ruby24-x64. Caso contrário faça o ajuste no arquivo. Não esqueça do caractere — antes do C:\.
-g) No Console do Cmder, digite o comando: ruby dk.rb install
+1. http://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe
+2. Descompactar no diretório C:\Ruby24-x64\devkit
+3. No Console do Cmder, acessar via linha de comando, a pasta onde foi instalado o DEVKIT. Com o comando: cd C:\Ruby24-x64\devkit
+4. Na sequencia digite o comando: ruby dk.rb init
+5. Agora abra o arquivo config.yml que foi gerado
+6. A ultima linha do arquivo deve conter o valor : -C:/Ruby24-x64. Caso contrário faça o ajuste no arquivo. Não esqueça do caractere — antes do C:\.
+7. No Console do Cmder, digite o comando: ruby dk.rb install
 
 # 3. Instalando o Bundler:
 
-a) gem install bundler
+1. gem install bundler
 
 # Rodando o Projeto
 
-a) Abra os dois projetos na pasta tests
-b) Execute o comando bundle install na linha de comando
-c) Execute o comando cucumber
+1. Abra os dois projetos na pasta tests
+2. Execute o comando bundle install na linha de comando
+3. Execute o comando cucumber
 
 # Ponto Importante
 
