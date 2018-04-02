@@ -1,0 +1,5 @@
+---
+default: --format progress -p html 
+html: --format html --out=logs/features.html
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
