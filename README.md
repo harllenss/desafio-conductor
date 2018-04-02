@@ -6,7 +6,7 @@ Segue abaixo os passos para instalação:
 # 1. Instalando Ruby 64 Bits
 
 a) Fazer download da versão 2.4.x x64 http://rubyinstaller.org/downloads/
-b) Instalar no diretório C:\Ruby24-x64
+\n b) Instalar no diretório C:\Ruby24-x64
 c) Antes de clicar em Install, você pode marcar todas disponíveis.
 c) Feche o Console do CMDER, e abre de novo, em seguida, digite o comando ruby –v, se der tudo certo você vai ver o seguinte resultado:
 ruby 2.3.3p222 (2016-11-21 revision 56859) [x64-mingw32]
