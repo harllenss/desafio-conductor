@@ -1,7 +1,9 @@
 # Instalando Ruby
-# 1. Instalando Ruby 64 Bits
+
 Para rodar o projeto, precisamos ter instalado o ruby em nossa máquina. O tutoriala seguir é a instalação para o ruby em windows.
 Segue abaixo os passos para instalação:
+
+# 1. Instalando Ruby 64 Bits
 
 a) Fazer download da versão 2.4.x x64 http://rubyinstaller.org/downloads/
 b) Instalar no diretório C:\Ruby24-x64
@@ -22,3 +24,13 @@ g) No Console do Cmder, digite o comando: ruby dk.rb install
 # 3. Instalando o Bundler:
 
 a) gem install bundler
+
+# Rodando o Projeto
+
+a) Abra os dois projetos na pasta tests
+b) Execute o comando bundle install na linha de comando
+c) Execute o comando cucumber
+
+# Ponto Importante
+
+Caso estejam utilizando o firefox como padrão, favor alocar o arquivo "geckodriver.exe" na pasta Windows.
